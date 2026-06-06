@@ -1,0 +1,25 @@
+
+---
+
+## 📄 `.gitignore` – Copy this entire block
+
+```gitignore
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Script backups
+*.bak
+wa.sh.bak
+
+# Termux specific
+.bash_history
+.termux/
